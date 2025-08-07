@@ -1,1 +1,232 @@
-Hello World
+HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Your Professional Title</title>
+    <style>
+      /* Basic Styles */
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f7f6;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      /* Header */
+      header {
+        background: #fff;
+        padding: 2rem 0;
+        text-align: center;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 2.5rem;
+        color: #2c3e50;
+      }
+
+      h2 {
+        font-weight: 400;
+        color: #7f8c8d;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      /* Navigation */
+      nav a {
+        color: #3498db;
+        text-decoration: none;
+        margin: 0 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #2980b9;
+      }
+
+      /* Main Content Sections */
+      section {
+        background: #fff;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      h3 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        display: inline-block;
+        padding-bottom: 0.5rem;
+        margin-top: 0;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      /* Project Cards (optional) */
+      .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .project-card {
+        background: #f9f9f9;
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 1rem 0;
+        color: #7f8c8d;
+        border-top: 1px solid #e0e0e0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Your Name"
+          class="profile-picture"
+        />
+        <h1>Your Name</h1>
+        <h2>Your Professional Title (e.g., Software Developer, UX Designer)</h2>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="about">
+        <h3>About Me</h3>
+        <p>
+          Write a brief, compelling introduction about yourself here. Mention
+          your key skills, experience, and what you're passionate about. This is
+          your chance to make a great first impression! For example: "I am a
+          passionate full-stack developer with 5+ years of experience building
+          scalable web applications. My expertise lies in JavaScript, React, and
+          Node.js, and I am dedicated to creating clean, efficient, and
+          user-friendly code."
+        </p>
+      </section>
+
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="project-grid">
+          <div class="project-card">
+            <h4>Project Title 1</h4>
+            <p>
+              A short, one-sentence description of your project. What did it do
+              and what technologies did you use?
+            </p>
+            <a href="#" target="_blank">View Project</a> |
+            <a href="#" target="_blank">GitHub Repo</a>
+          </div>
+
+          <div class="project-card">
+            <h4>Project Title 2</h4>
+            <p>
+              A short, one-sentence description of your project. What did it do
+              and what technologies did you use?
+            </p>
+            <a href="#" target="_blank">View Project</a> |
+            <a href="#" target="_blank">GitHub Repo</a>
+          </div>
+
+          <div class="project-card">
+            <h4>Project Title 3</h4>
+            <p>
+              A short, one-sentence description of your project. What did it do
+              and what technologies did you use?
+            </p>
+            <a href="#" target="_blank">View Project</a> |
+            <a href="#" target="_blank">GitHub Repo</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h3>Contact</h3>
+        <p>
+          I'm always open to new opportunities and collaborations. Feel free to
+          reach out!
+        </p>
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+          </li>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"
+              >linkedin.com/in/yourprofile</a
+            >
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/yourusername" target="_blank"
+              >github.com/yourusername</a
+            >
+          </li>
+          <li>
+            <strong>Portfolio/Website:</strong>
+            <a href="https://yourportfolio.com" target="_blank"
+              >yourportfolio.com</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
